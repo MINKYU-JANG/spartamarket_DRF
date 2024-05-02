@@ -24,6 +24,8 @@ class ProductListAPIView(APIView):
 class ProductPutDeleteAPIView(APIView):
     def put(self, request, pk):
         product = get_object_or_404(Product, pk=pk)
+        print(product.author)
+        print(request.user)
         if product.author != request.user:  # 상품 작성자와 요청자가 다른 경우 권한 없음
             return Response({"error": "You don't have permission to edit this product."},
                             status=status.HTTP_403_FORBIDDEN)
@@ -40,8 +42,8 @@ class ProductPutDeleteAPIView(APIView):
                             status=status.HTTP_403_FORBIDDEN)
         product.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-    
-    
+
+
 # class ProductPutDeleteAPIView(APIView):
 #     def put(self, request, pk):
 #         product = get_object_or_404(Product, pk=pk)
@@ -54,6 +56,3 @@ class ProductPutDeleteAPIView(APIView):
 #         product = get_object_or_404(Product, pk=pk)
 #         product.delete()
 #         return Response(status=status.HTTP_204_NO_CONTENT)
-    
-
-
