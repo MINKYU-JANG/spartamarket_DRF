@@ -6,7 +6,11 @@
     - **조건**: username, 비밀번호, 이메일, 이름, 닉네임, 생일 필수 입력하며 성별, 자기소개 생략 가능(O)
     - **검증**: username과 이메일은 유일해야 하며, 이메일 중복 검증(선택 기능).(O)
     - **구현**: 데이터 검증 후 저장.(O)
-    - ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/39e6c350-60f7-4179-ab8f-f8939153faea)
+    - **로그인 한 유저 프로필 확인**
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/39e6c350-60f7-4179-ab8f-f8939153faea)
+    - 로그인 안한 유저 프로필 확인
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/c34d459a-8e59-4fc1-8cd4-856acb8667e7)
+
 
 - **로그인**(O)
     - **Endpoint**: **`/api/accounts/login`**
