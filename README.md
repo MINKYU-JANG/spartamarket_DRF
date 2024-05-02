@@ -7,11 +7,11 @@
     - **검증**: username과 이메일은 유일해야 하며, 이메일 중복 검증(선택 기능).(O)
     - **구현**: 데이터 검증 후 저장.(O)
     - **회원가입 완료**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/9f83a367-ec03-411e-a35f-aa522b485abf)
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/feedefcc-ab6b-42a6-9d03-464cf35e9297)
     - **이메일 검사**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/6dd33726-aece-4c47-8120-9a95454f0adb)
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/c76f3a3c-208c-4f0f-871d-86ca992a035e)
     - **username 검사**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/f8ff1665-a796-4b3d-8daf-e8cab3840226)
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/2e3b19cf-a7d6-4669-bad5-662d1331cb70)
 
 - **로그인**(O)
     - **Endpoint**: **`/api/accounts/login`**
