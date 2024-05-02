@@ -32,6 +32,7 @@
     ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/39e6c350-60f7-4179-ab8f-f8939153faea)
     - **로그인 안한 유저 프로필 확인**
     ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/c34d459a-8e59-4fc1-8cd4-856acb8667e7)
+
     
 - **상품 등록**(O)
     - **Endpoint**: **`/api/products/create`**
@@ -39,7 +40,8 @@
     - **조건**: 로그인 상태, 제목과 내용, 상품 이미지 입력 필요.(O)
     - **구현**: 새 게시글 생성 및 데이터베이스 저장.(O)
     - **상품 등록 성공**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/28e0df40-a1d2-4193-a779-fe589de6dd08)
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/4b290c66-8a44-4eaf-9d1b-696a704b63cd)
+
 
 - **상품 목록 조회**(O)
     - **Endpoint**: **`/api/products`**
