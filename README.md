@@ -33,6 +33,7 @@
     - **로그인 안한 유저 프로필 확인**
     ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/c34d459a-8e59-4fc1-8cd4-856acb8667e7)
 
+
     
 - **상품 등록**(O)
     - **Endpoint**: **`/api/products/create`**
@@ -42,7 +43,6 @@
     - **상품 등록 성공**
     ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/4b290c66-8a44-4eaf-9d1b-696a704b63cd)
 
-
 - **상품 목록 조회**(O)
     - **Endpoint**: **`/api/products`**
     - **Method**: **`GET`**
@@ -51,7 +51,6 @@
     - **상품 조회 완료**
     ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/6c44b135-5947-4517-9d94-e477e645657c)
 
-
 - **상품 수정**(O)
     - **Endpoint**: **`/api/products/<int:productId>`**
     - **Method**: **`PUT`**
@@ -59,9 +58,9 @@
     - **검증**: 요청자가 게시글의 작성자와 일치하는지 확인.(O)
     - **구현**: 입력된 정보로 기존 상품 정보를 업데이트.(O)
     - **수정 권한이 있는 유저(수정 성공)**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/86059dee-4f5f-4910-8e56-4c7ab2655717)
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/3641a661-3d53-4068-8ba9-79205482ba1a)
     - **수정 권한이 없는 유저(수정 실패)**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/9381fe73-8939-4f50-9adc-3bb3ba2441fd)
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/3ec7fae0-979e-4897-9530-b30e746edd99)
 
 - **상품 삭제**(O)
     - **Endpoint**: **`/api/products/<int:productId>`**
