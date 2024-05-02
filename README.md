@@ -47,9 +47,9 @@
     - **Endpoint**: **`/api/products`**
     - **Method**: **`GET`**
     - **조건**: 로그인 상태 불필요.(O)
-    - **구현**: 모든 상품 목록 페이지네이션으로 반환.(X)
+    - **구현**: 모든 상품 목록 페이지네이션으로 반환.(O)
     - **상품 조회 완료**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/6c44b135-5947-4517-9d94-e477e645657c)
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/ff7d7c15-0cd7-4142-98c9-0fdb9ef09b80)
 
 - **상품 수정**(O)
     - **Endpoint**: **`/api/products/<int:productId>`**
