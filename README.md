@@ -18,10 +18,7 @@
     - **조건**: 로그인 상태 필요.(O)
     - **검증**: 로그인 한 사용자만 프로필 조회 가능(O)
     - **구현**: 로그인한 사용자의 정보를 JSON 형태로 반환.(O)
- 
-
-### **필수 기능 - MVP(Minimum Viable Product)**
-
+<br> 
 - **상품 등록**(O)
     - **Endpoint**: **`/api/products/create`**
     - **Method**: **`POST`**
