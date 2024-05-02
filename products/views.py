@@ -1,19 +1,22 @@
 from django.shortcuts import render
-from rest_framework.views import APIView
 from .models import Product
 from django.shortcuts import get_object_or_404
+from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.pagination import PageNumberPagination
 from .serializers import ProductSerializer
 
 
 class ProductListAPIView(APIView):
     def get(self, request):
+        paginator = PageNumberPagination()
+        paginator.page_size = 10  # 페이지당 아이템 수를 설정
         products = Product.objects.all()
-        print(products)
-        serializer = ProductSerializer(products, many=True)
-        return Response(serializer.data)
+        result_page = paginator.paginate_queryset(products, request)
+        serializer = ProductSerializer(result_page, many=True)
+        return paginator.get_paginated_response(serializer.data)
 
 
 class ProductCreateAPIView(APIView):
