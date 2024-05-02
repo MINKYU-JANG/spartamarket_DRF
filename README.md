@@ -67,8 +67,9 @@
     - **조건**: 로그인 상태, 삭제 권한 있는 사용자(게시글 작성자)만 가능.(O)
     - **검증**: 요청자가 게시글의 작성자와 일치하는지 확인.(O)
     - **구현**: 해당 상품을 데이터베이스에서 삭제.(O)
-    - **삭제 권한이 없는 유저**
-    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/c5006aae-ac90-40a4-8dfb-65ee76d42006)
     - **삭제 권한이 있는 유저(삭제 성공)**
     ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/db5cd494-1f03-41aa-91ad-0778da396f0a)
+    - **삭제 권한이 없는 유저(삭제 실패)**
+    ![image](https://github.com/MINKYU-JANG/spartamarket_DRF/assets/159976157/c5006aae-ac90-40a4-8dfb-65ee76d42006)
+
 
